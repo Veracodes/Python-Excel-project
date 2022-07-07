@@ -38,3 +38,7 @@ data = {
 work_book = Workbook()
 work_sheet = work_book.active
 work_sheet_title = "Grades"
+
+headings = ['Name'] + list(data['Joe'].keys())
+work_sheet.append(headings)
+
