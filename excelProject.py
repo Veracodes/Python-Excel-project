@@ -34,3 +34,7 @@ data = {
 		"gym": 60
 	}
 }
+
+work_book = Workbook()
+work_sheet = work_book.active
+work_sheet_title = "Grades"
